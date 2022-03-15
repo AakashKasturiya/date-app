@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Festive', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+
+}
+.App-title
+{
+    text-align: center;
+
+}
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin: 5px;
+    margin-top:20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MuiBox-root.css-knkgs5 {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation3.css-3su884-MuiPaper-root {
+
+    border: 2px solid #001e3c;
+    color:#fff;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-light .navbar-brand {
+    color: var(--bs-body-bg);
+}
+.MuiBox-root.css-k008qs {
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiBox-root.css-11wr2aw {
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-1s15jq5-MuiStack-root {
+    justify-content: center;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(255 255 255);
 }
