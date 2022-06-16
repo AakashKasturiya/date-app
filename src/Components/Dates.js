@@ -158,7 +158,7 @@ setWeekDaysTwo(weekDaysArray[getDayValTwo]);
 
  
      <Stack direction="row" spacing={2} mt={5} mb={5}>
-      <Button variant="contained" endIcon={<SendIcon />} p={5} onClick={calculate}>
+      <Button variant="contained" endIcon={<SendIcon />} p={5} onClick={calculate} style={{justifyContent: center;}}>
       Calculate
       </Button>
     </Stack>
